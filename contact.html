@@ -10,7 +10,8 @@
   <!-- 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   -->
-  <link rel="stylesheet" href="./Content/bootstrap.cerulean.min.css"> <!-- instead of above bootstrap this bootstrap cerulean used-->
+  <link rel="stylesheet" href="./Content/bootstrap.cerulean.min.css">
+  <!-- instead of above bootstrap this bootstrap cerulean used-->
   <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="./Content/app.css">
 </head>
@@ -107,9 +108,26 @@
 
 
   <!-- JavaScript Section-->
+  <!-- 
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="./Scripts/app.js"></script>
+
+ -->
+
+  <!-- JavaScript Section-->
+
+  <!-- 3rd Party Libraries -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- App Scripts-->
+  <!-- Order is very important here. Bottom one must upper of app.js;-->
+  <script src="./Scripts/home.js"></script>
+  <script src="./Scripts/about.js"></script>
+  <script src="./Scripts/app.js"></script>
+
+
 </body>
 
 </html>
