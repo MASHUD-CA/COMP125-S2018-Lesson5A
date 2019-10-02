@@ -15,7 +15,8 @@ let app;
         // var title = document.title;
         let title = document.title; // we need to use "use strict" above
         console.log("App Started!");
-        console.log("--------------------------------");
+        console.log("%c App Started!", "font-weight:bold; font-size: 20px;");
+        console.log("%c --------------------------------");
         console.log("Title: " + title);
 
 

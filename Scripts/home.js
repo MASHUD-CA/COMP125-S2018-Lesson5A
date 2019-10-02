@@ -34,6 +34,7 @@ let content;
     function HomeContent() {
 
         console.log("Home Content Accessed ...");
+        console.log("%c Home Content Accessed ...", "font-weight:bold; font-size: 20px;");
         let AboutButton = document.getElementById("AboutButton");
 
         //Some browser do not like innerText but others do. textContent is standard. User textContent
