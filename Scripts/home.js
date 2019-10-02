@@ -33,7 +33,7 @@ let content;
      */
     function HomeContent() {
 
-        console.log("Home Content Triggered ...");
+        console.log("Home Content Accessed ...");
         let AboutButton = document.getElementById("AboutButton");
 
         //Some browser do not like innerText but others do. textContent is standard. User textContent

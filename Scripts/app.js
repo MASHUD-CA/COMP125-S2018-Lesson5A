@@ -8,9 +8,7 @@ let app;
 
     
     
-function ContactContent() {
-        //Next week 
-    }
+
 
     function Start() {
         //local variable
@@ -24,8 +22,7 @@ function ContactContent() {
         try {
             switch (title) {
                 case "COMP125 - Home":
-                    //HomeContent();
-                    // content.home();
+                   
                     content.HomeContent();
                     break;
 
@@ -34,7 +31,7 @@ function ContactContent() {
                     break;
 
                 case "COMP125 - Contact":
-                    ContactContent();
+                      content.ContactContent();
                     break;
 
                 default:

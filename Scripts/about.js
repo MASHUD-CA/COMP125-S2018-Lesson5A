@@ -30,7 +30,7 @@
         return Math.PI;
     }
     function AboutContent() {
-        console.log("About Content Triggered ...");
+        console.log("About Content Accessed ...");
         let myNumber = ReturnPI();
         console.log("My Funky Number: " + myNumber);
 
